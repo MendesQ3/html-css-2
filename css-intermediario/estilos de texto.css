@@ -1,0 +1,48 @@
+.direita {
+    text-align: right;
+}
+.esquerda {
+    text-align: left;
+}
+.centro {
+    text-align: center;
+}
+.alinhado {
+    padding: 20px;
+    background-color: aqua;
+}
+.justificado {
+    text-align: justify;
+}
+.maiuscula {
+    text-transform: uppercase;
+}
+.minuscula {
+    text-transform: lowercase;
+}
+.captalizado {
+    text-transform: capitalize;
+}
+.transform {
+    background-color: green;
+}
+.underline {
+    text-decoration: underline;
+}
+.none {
+    text-decoration: none;
+}
+.line-through {
+    text-decoration: line-through;
+}
+.decorado {
+    background-color: red;
+}
+.altura {
+    line-height: 40px;
+    background-color: brown;
+}
+.sombra {
+    text-shadow: 10px 10px 1px purple;
+    background-color: aquamarine;
+}

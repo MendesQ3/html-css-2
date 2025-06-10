@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>formulario</h1>
+
+    <h2>formulario get</h2>
+<form method="get" action="formulario.html">
+    <input type="text" name="q">
+    <input type="submit" value="enviar">
+</form>
+<h2>formulario post</h2>
+<form method="post" action="formulario.html">
+    <input type="text" name="q">
+    <input type="submit" value="enviar">
+</form>
+<h2>formulario completo</h2>
+<form method="get" action="formulario.html">
+    <input type="text" name="nome" id="nome" placeholder="nome">
+    <input type="text" name="sobrenome" id="sobrenome" placeholder="sobrenome">
+    <input type="text" name="celular ou email" id="celular ou email" placeholder="celular ou email">
+    <input type="password" name="senha" id="senha" placeholder="senha"><br><br>
+
+    <label>data de nacimento</label><br><br>
+    <select name="dia" id="">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+    <select name="mes" id="">
+        <option value="jan">jan</option>
+        <option value="feb">feb</option>
+        <option value="mar">mar</option>
+        <option value="apr">apr</option>
+        <option value="may">may</option>
+    </select>
+    <select name="ano" id="">
+        <option value="1999">1999</option>
+        <option value="2000">2000</option>
+        <option value="2001">2001</option>
+        <option value="2002">2002</option>
+        <option value="2003">2003</option>
+    </select><br><br>
+
+    <label>genero</label><br><br>
+    <label for="mulher">mulher</label>
+    <input type="radio" name="genero" id="mulher" value="mulher">
+    <label for="homen">homen</label>
+    <input type="radio" name="genero" id="homen" value="homen">
+    <label for="outros">outros</label>
+    <input type="radio" name="genero" id="outros" value="outros"><br><br>
+
+    <input type="submit" value="enviar">
+</form>
+</body>
+</html>
